@@ -1,0 +1,273 @@
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url(/assets/fonts/OpenSans-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  line-height: 1.5;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #686a6f;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar a {
+  color: #686a6f;
+  font-size: large;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #fd7e14;
+}
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: o.5rem 1rem;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.logo {
+  font-family: sans-serif;
+  font-size: xx-large;
+  font-weight: bold;
+  color: deeppink;
+}
+span {
+  color: black;
+}
+
+.header {
+  background-color: #4117ff54;
+  margin-bottom: 90px;
+  padding: 0 3rem 0 3rem;
+}
+.row2 {
+  display: flex;
+  justify-content: space-around;
+}
+.row {
+  text-align: center;
+  margin-bottom: 50px;
+  color: black;
+  font-size: xx-large;
+}
+
+.row p {
+  font-size: xx-large;
+  font-family: Brush Script MT;
+}
+.btn {
+  border: 2px solid #4caf50;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 4px 2px;
+  display: inline-block;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+
+.note {
+  padding: 50px 50px 50px 50px;
+}
+
+.note h1 {
+  color: black;
+  font-weight: bolder;
+}
+.note p {
+  font-weight: 500px;
+}
+
+.service {
+  text-align: center;
+  font-size: xx-large;
+  margin-top: -50px;
+}
+.service ul {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  font-style: italic;
+  font-size: x-large;
+}
+.project {
+  box-sizing: border-box;
+  background-color: rgb(218, 186, 186);
+  text-align: center;
+  margin: 0;
+  padding-bottom: 50px;
+  justify-content: space-around;
+}
+.project h1 {
+  padding: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  color: black;
+}
+.pictures {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  font-size: large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.card ul li {
+  margin-left: 10px;
+}
+
+.contact {
+  text-align: center;
+  background-color: #ffaa17;
+  border: solid 1px;
+  padding-bottom: 20px;
+}
+.contact,
+h3 {
+  font-size: x-large;
+}
+
+.send {
+  border: 1px solid #4caf50;
+  font-size: 10px;
+  background-color: #686a6f;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 4px 2px;
+  display: inline-block;
+  padding: 10px 10px;
+  border-radius: 10px;
+}
+.foot {
+  background-color: #222429;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.link {
+  color: white;
+}
+.touch {
+  color: white;
+}
+.bottom {
+  background-color:  #222429;
+  text-align: center;
+  color: #ffaa17;
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+}
+
+.contact-us {
+  padding: 2% 15%;
+  display: flex;
+  font-size: 16px;
+  font-family: OpenSans-Regular;
+  margin: auto;
+  background-color: #222429;
+  color: white;
+}
+.purple-left {
+  width: 35%;
+  text-align: left;
+  background-color: rgb(79, 6, 148);
+  color: white;
+  padding: 30px 1rem 0 2rem;
+  border-radius: 1rem 0 0 1rem;
+}
+.white-right {
+  width: 65%;
+  text-align: left;
+  padding-left: 12rem;
+  padding-top: 6rem;
+}
+.text-wild {
+    color:blanchedalmond;
+    margin-bottom: 14px;
+}
+
+.form {
+    margin-top: 40px
+}
+.fill-up {
+    margin-top: 20px;
+}
+input {
+    width: 38rem;
+    height: 2.5rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin: 8px 0;
+    padding: 0 12px;
+    cursor: pointer;
+}
+textarea {
+    width: 38rem;
+    height: 15rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin: 8px 0;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+button {
+    color: white;
+    background-color:rgb(79, 6, 148);
+    padding: 1rem 0;
+    width: 38rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+/* Helper Classes */
+.mb-2 {
+    margin-bottom: 2px;
+}
+.mb-4 {
+    margin-bottom: 4px;
+  }
+.mb-8 {
+  margin-bottom: 8px;
+}
